@@ -1,0 +1,25 @@
+{
+  "name": "muse-bridge",
+  "version": "1.0.0",
+  "description": "HTTP + SSE bridge in front of the Meta Muse CLI — headless, shaper-bridge family",
+  "type": "module",
+  "bin": {
+    "muse-bridge": "bin/muse-bridge.mjs"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env bin/muse-bridge.mjs",
+    "test": "node --test test/*.test.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "CC-BY-SA-4.0",
+  "files": [
+    "bin",
+    "src",
+    "README.md",
+    "INTENT.md",
+    "LICENSE",
+    "AUTHORS.md"
+  ]
+}
