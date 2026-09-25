@@ -8,7 +8,8 @@
   },
   "scripts": {
     "start": "node --env-file-if-exists=.env bin/muse-bridge.mjs",
-    "test": "node --test test/*.test.mjs"
+    "test": "node --test test/*.test.mjs",
+    "smoke": "scripts/smoke-local.sh"
   },
   "engines": {
     "node": ">=20"
