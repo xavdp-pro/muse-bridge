@@ -82,3 +82,7 @@ BRIDGE_MUSE_STUB=1 MUSE_MODEL=stub/engine npm test
 ## License
 
 CC-BY-SA-4.0 — see [LICENSE](LICENSE) and [AUTHORS](AUTHORS.md).
+
+## Dedication
+
+[Personal dedication by Xavier de Poorter](DEDICATION.md).
